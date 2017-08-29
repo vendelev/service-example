@@ -1,0 +1,25 @@
+{
+    "name": "vendelev/service-example",
+    "description":  "Пример работы с внешним сервисом",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":  "Artiom Vendelev",
+            "email": "artiom@vendelev.ru",
+            "role":  "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vendelev\\Service\\Example\\": "src\\"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "misterion/pinba-phpdoc": "^1.0@dev",
+        "phpunit/phpunit": "^5.6"
+    }
+}
